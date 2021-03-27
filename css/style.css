@@ -1,9 +1,12 @@
-@font-face {
+* {
+  box-sizing: border-box;
 }
 body {
   background-color: rgb(110, 183, 218);
 }
 article {
+  margin: 0 auto;
+  text-align: center;
   background-color: rgb(34, 31, 31);
   border-radius: 50px;
   height: 383px;
