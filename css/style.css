@@ -1,31 +1,41 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: rgb(110, 183, 218);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 article {
-  margin: 0 auto;
+  margin: 70px auto 0;
   text-align: center;
   background-color: rgb(34, 31, 31);
-  border-radius: 50px;
+  border-radius: 24px;
+
   height: 383px;
   width: 666px;
 }
 h1 {
   color: rgb(90, 90, 248);
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+.first p {
+  line-height: 30px;
+  padding: 20px;
+  font-size: 20px;
 }
 .phrase {
   color: white;
 }
-div img {
+img {
   margin-top: -46px;
   width: 92px;
   height: 92px;
   display: inline-block;
-}
-form {
-  display: block;
 }
 button {
   width: 161px;
@@ -42,7 +52,7 @@ button {
   background-color: rgb(99, 138, 223);
 }
 input {
-  width: 250px;
+  width: 300px;
   height: 52px;
   margin: 10px;
 
