@@ -22,21 +22,30 @@ div img {
   margin-top: -46px;
   width: 92px;
   height: 92px;
+  display: inline-block;
+}
+form {
+  display: block;
 }
 button {
   width: 161px;
   height: 52px;
 
   font-size: 15px;
+  text-transform: uppercase;
 
   border-radius: 10px;
   font-weight: 700;
   color: white;
+  margin: 15px;
+  padding: 10px;
   background-color: rgb(99, 138, 223);
 }
-label {
-  width: 170px;
+input {
+  width: 250px;
   height: 52px;
+  margin: 10px;
+
   border-radius: 10px;
 }
 footer p {
