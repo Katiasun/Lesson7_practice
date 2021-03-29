@@ -41,23 +41,29 @@ button {
   width: 161px;
   height: 52px;
 
-  font-size: 15px;
+  font-size: 18px;
   text-transform: uppercase;
+  line-height: 29px;
 
   border-radius: 10px;
+  border: 0;
   font-weight: 700;
   color: white;
+
   margin: 15px;
   padding: 10px;
+
   background-color: rgb(99, 138, 223);
 }
 input {
   width: 300px;
   height: 52px;
   margin: 10px;
-
+  border: 0;
   border-radius: 10px;
 }
 footer p {
   color: rgb(170, 165, 165);
+  font-size: 20px;
+  line-height: 34px;
 }
